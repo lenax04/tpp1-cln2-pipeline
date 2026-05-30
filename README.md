@@ -55,7 +55,7 @@ graph TD
 
 ```bash
 # Clone repository
-git clone https://github.com/dawidx1233/tpp1-cln2-pipeline.git
+git clone https://github.com/lenax04/tpp1-cln2-pipeline.git
 cd tpp1-cln2-pipeline
 
 # Run full pipeline with conda environments
@@ -131,6 +131,6 @@ If you use this pipeline, please cite:
   author = {Traczuk, Lena and Fleischer, Dawid},
   title = {tpp1-cln2-pipeline: Automated ACMG/AMP Variant Classification for TPP1},
   year = {2026},
-  url = {https://github.com/dawidx1233/tpp1-cln2-pipeline}
+  url = {https://github.com/lenax04/tpp1-cln2-pipeline}
 }
 ```
