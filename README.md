@@ -97,8 +97,7 @@ tpp1-cln2-pipeline/
 │   ├── TPP1/classification/
 │   ├── TPP1/figures/
 │   └── comparison/
-├── paper/paper.md                     # Manuscript
-├── paper/paper.pdf                    # Compiled PDF
+├── paper/paper.md                     # Manuscript                 
 ├── Dockerfile
 ├── CITATION.cff
 └── LICENSE
