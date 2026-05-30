@@ -1,6 +1,7 @@
 # Automated ACMG/AMP Variant Pathogenicity Classification for TPP1 (CLN2 Disease): A Reproducible Bayesian Pipeline
 
-**Lena Traczuk,Dawid Fleischer
+Lena Traczuk
+Dawid Fleischer
 
 
 
