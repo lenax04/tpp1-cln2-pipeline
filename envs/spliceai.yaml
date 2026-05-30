@@ -1,0 +1,12 @@
+name: spliceai
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - spliceai==1.3.1
+    - tensorflow>=2.0
+    - keras
+    - pysam

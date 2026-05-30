@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "tpp1-cln2-pipeline: Automated ACMG/AMP Variant Classification Pipeline for TPP1"
+abstract: >
+  An automated, reproducible pipeline for ACMG/AMP variant pathogenicity classification
+  of TPP1 (CLN2 disease) using the Tavtigian Bayesian point framework.
+authors:
+  - family-names: "Traczuk"
+    given-names: "Lena"
+  - family-names: "Fleischer"
+    given-names: "Dawid"
+version: "1.0.0"
+date-released: "2026-05-30"
+license: MIT
+repository-code: "https://github.com/dawidx1233/tpp1-cln2-pipeline"

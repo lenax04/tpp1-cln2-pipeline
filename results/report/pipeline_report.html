@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MicroSnake Variant Classification Report — TPP1</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; background-color: #f8f9fa; color: #333; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 10px; }
+        h2 { color: #16a085; margin-top: 30px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 15px; background: white; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #2c3e50; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .flex { display: flex; gap: 20px; }
+        .stat { flex: 1; text-align: center; padding: 15px; border-radius: 6px; color: white; font-weight: bold; }
+        .stat-total { background-color: #34495e; }
+        .stat-plp { background-color: #e74c3c; }
+        .stat-vus { background-color: #f1c40f; }
+        .stat-blb { background-color: #2ecc71; }
+    </style>
+</head>
+<body>
+    <h1>🧬 MicroSnake Variant Classification Report — TPP1 (CLN2)</h1>
+    <p><strong>Authors:</strong> Lena Traczuk & Dawid Fleischer</p>
+    <p><strong>Date:</strong> 2026-05-30</p>
+    
+    <div class="card flex">
+        <div class="stat stat-total">
+            <h3>Total Variants</h3>
+            <p style="font-size: 24px; margin: 5px 0;">607</p>
+        </div>
+        <div class="stat stat-plp">
+            <h3>Pathogenic / Likely Pathogenic</h3>
+            <p style="font-size: 24px; margin: 5px 0;">89 (14.7%)</p>
+        </div>
+        <div class="stat stat-vus">
+            <h3>VUS</h3>
+            <p style="font-size: 24px; margin: 5px 0;">258 (42.5%)</p>
+        </div>
+        <div class="stat stat-blb">
+            <h3>Benign / Likely Benign</h3>
+            <p style="font-size: 24px; margin: 5px 0;">260 (42.8%)</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📊 Classification Distribution</h2>
+        <table>
+            <tr>
+                <th>ACMG Classification</th>
+                <th>Count</th>
+                <th>Percentage</th>
+            </tr>
+    
+            <tr>
+                <td><strong>Pathogenic</strong></td>
+                <td>0</td>
+                <td>0.0%</td>
+            </tr>
+        
+            <tr>
+                <td><strong>Likely_Pathogenic</strong></td>
+                <td>89</td>
+                <td>14.7%</td>
+            </tr>
+        
+            <tr>
+                <td><strong>VUS</strong></td>
+                <td>258</td>
+                <td>42.5%</td>
+            </tr>
+        
+            <tr>
+                <td><strong>Likely_Benign</strong></td>
+                <td>15</td>
+                <td>2.5%</td>
+            </tr>
+        
+            <tr>
+                <td><strong>Benign</strong></td>
+                <td>245</td>
+                <td>40.4%</td>
+            </tr>
+        
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>🔍 Platform Concordance (vs. Franklin by Genoox)</h2>
+        <table>
+            <tr>
+                <th>Gene</th>
+                <th>Disease</th>
+                <th>Total Variants</th>
+                <th>Pipeline P/LP</th>
+                <th>Concordant P/LP</th>
+                <th>Pipeline Unique</th>
+                <th>Franklin Unique</th>
+                <th>VUS Elevated by Franklin</th>
+                <th>Concordance (%)</th>
+            </tr>
+            <tr>
+                <td>TPP1</td>
+                <td>CLN2 (Batten disease)</td>
+                <td>607</td>
+                <td>89</td>
+                <td>69</td>
+                <td>20</td>
+                <td>17</td>
+                <td>0</td>
+                <td><strong>85.7%</strong></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+    

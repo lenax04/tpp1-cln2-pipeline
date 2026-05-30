@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.snakemake/
+*.log
+*.DS_Store
+local_cache/
+*.egg-info/
+dist/
+build/

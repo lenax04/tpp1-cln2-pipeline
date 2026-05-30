@@ -1,0 +1,2 @@
+Gene	Disease	Total_Variants	Pipeline_Pathogenic	Pipeline_Likely_Pathogenic	Pipeline_P_LP_Total	Concordant_P_LP	Pipeline_Unique_P_LP	Franklin_Unique_P_LP	VUS_Elevated_by_Franklin	Concordance_Pct
+TPP1	CLN2 (Batten disease)	607	0	89	89	69	20	17	0	85.7
