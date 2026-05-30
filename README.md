@@ -127,7 +127,6 @@ The classifier implements the Tavtigian (2020) Bayesian point system:
 If you use this pipeline, please cite:
 
 ```bibtex
-@software{traczuk2026tpp1,
   author = {Traczuk, Lena and Fleischer, Dawid},
   title = {tpp1-cln2-pipeline: Automated ACMG/AMP Variant Classification for TPP1},
   year = {2026},
